@@ -125,7 +125,18 @@ document.addEventListener("keydown", function(e) {
           scroll_up();
         }
         break;
+        // new keybindings
+        case "o":
+          const orhunLink = document.querySelector('.command a[href="https://blog.orhun.dev/mongolia-trip/"]');
+          if (orhunLink) {
+          orhunLink.click();
+          break;
+          
+  }
+  break;
+
     }
     str_num = "";
   }
 });
+
